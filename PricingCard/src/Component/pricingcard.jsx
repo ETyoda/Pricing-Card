@@ -1,7 +1,3 @@
 import styles from 'pricingcard.module.css'
 
-export default PricingCard(
-    <div>
-        
-    </div>
-)
+export default PricingCard({price},{item},)
