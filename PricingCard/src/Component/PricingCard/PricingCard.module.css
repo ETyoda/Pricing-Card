@@ -1,0 +1,67 @@
+.pricingCard {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .pricingCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card_label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card_image img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card_priceLabel {
+    display: block;
+    font-size: 1.5em;
+    color: #2a9d8f;
+    margin: 10px 0;
+  }
+  
+  .card_benefits {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .card_benefits li {
+    padding: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .card_button {
+    background-color: #2a9d8f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .card_button:hover {
+    background-color: #21867a;
+  }
+  
