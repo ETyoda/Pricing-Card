@@ -1,4 +1,4 @@
-import styles from 'pricingcard.module.css';
+import styles from './PricingCard.module.css';
 
 function PricingCard({ label, priceLabel, image, imageAlt }) {
   return (
